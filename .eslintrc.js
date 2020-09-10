@@ -39,6 +39,7 @@ module.exports = {
       "import/prefer-default-export": "off",
       "@typescript-eslint/ban-types":"off",
       "no-unused-expressions":"off",
+      "no-use-before-define":"off",
       "@typescript-eslint/explicit-function-return-type":[
         "error",
         {
