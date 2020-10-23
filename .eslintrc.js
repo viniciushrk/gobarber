@@ -40,6 +40,7 @@ module.exports = {
       "@typescript-eslint/ban-types":"off",
       "no-unused-expressions":"off",
       "no-use-before-define":"off",
+      "@typescript-eslint/camelcase":"off",
       "@typescript-eslint/explicit-function-return-type":[
         "error",
         {
