@@ -38,6 +38,7 @@
       "import/prefer-default-export": "off",
       "no-use-before-define":"off",
       "@typescript-eslint/camelcase":"off",
+      "import/no-duplicates":"off",
       "@typescript-eslint/explicit-function-return-type":[
         "error",
         {
@@ -55,7 +56,7 @@
     },
     "settings": {
       "import/resolver": {
-        "typescript": {}
+        "typescript": {"alwaysTryTypes": true ,}
       }
     }
 }

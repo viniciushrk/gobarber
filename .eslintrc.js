@@ -41,6 +41,7 @@ module.exports = {
       "no-unused-expressions":"off",
       "no-use-before-define":"off",
       "@typescript-eslint/camelcase":"off",
+      "import/no-duplicates":"off",
       "@typescript-eslint/explicit-function-return-type":[
         "error",
         {
@@ -58,7 +59,11 @@ module.exports = {
     },
     "settings": {
       "import/resolver": {
-        "typescript": {}
+        "typescript": {
+
+            "alwaysTryTypes": true ,
+
+        }
       }
     }
 };
